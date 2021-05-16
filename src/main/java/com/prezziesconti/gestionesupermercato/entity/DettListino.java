@@ -31,7 +31,7 @@ public class DettListino implements Serializable {
     @Size(min = 5, max = 20, message = "{Size.DettListini.codArt.Validation}")
     @NotNull(message = "{NotNull.DettListini.codArt.Validation}")
     @Column(name = "CODART")
-    private Integer codArt;
+    private String codArt;
 
     @Min(value = (long) 0.01, message = "{Min.DettListini.prezzo.Validation}")
     @Column(name = "PREZZO")
