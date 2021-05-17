@@ -1,9 +1,9 @@
-package com.prezziesconti.gestionesupermercato.service;
+package com.sdistribuiti.prezziesconti.gestionesupermercato.service;
 
-import com.prezziesconti.gestionesupermercato.entity.DettListino;
-import com.prezziesconti.gestionesupermercato.mapper.DettListinoDTO;
-import com.prezziesconti.gestionesupermercato.repository.DettListinoRepository;
-import com.prezziesconti.gestionesupermercato.utility.exception.NotFoundException;
+import com.sdistribuiti.prezziesconti.gestionesupermercato.entity.DettListino;
+import com.sdistribuiti.prezziesconti.gestionesupermercato.mapper.DettListinoDTO;
+import com.sdistribuiti.prezziesconti.gestionesupermercato.repository.DettListinoRepository;
+import com.sdistribuiti.prezziesconti.gestionesupermercato.utility.exception.NotFoundException;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

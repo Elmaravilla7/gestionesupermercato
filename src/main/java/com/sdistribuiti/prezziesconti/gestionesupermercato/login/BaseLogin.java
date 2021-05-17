@@ -1,4 +1,4 @@
-package com.prezziesconti.gestionesupermercato.login;
+package com.sdistribuiti.prezziesconti.gestionesupermercato.login;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

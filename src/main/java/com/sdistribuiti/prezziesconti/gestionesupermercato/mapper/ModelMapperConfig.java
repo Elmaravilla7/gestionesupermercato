@@ -1,4 +1,4 @@
-package com.prezziesconti.gestionesupermercato.mapper;
+package com.sdistribuiti.prezziesconti.gestionesupermercato.mapper;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.prezziesconti.gestionesupermercato.utility.exception;
+package com.sdistribuiti.prezziesconti.gestionesupermercato.utility.exception;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

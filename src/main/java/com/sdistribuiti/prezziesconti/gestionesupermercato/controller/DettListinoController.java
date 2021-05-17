@@ -1,11 +1,9 @@
-package com.prezziesconti.gestionesupermercato.controller;
+package com.sdistribuiti.prezziesconti.gestionesupermercato.controller;
 
 
-import com.prezziesconti.gestionesupermercato.entity.DettListino;
-import com.prezziesconti.gestionesupermercato.mapper.DettListinoDTO;
-import com.prezziesconti.gestionesupermercato.service.DettListinoService;
-import com.prezziesconti.gestionesupermercato.service.DettListinoServiceImpl;
-import com.prezziesconti.gestionesupermercato.utility.exception.NotFoundException;
+import com.sdistribuiti.prezziesconti.gestionesupermercato.mapper.DettListinoDTO;
+import com.sdistribuiti.prezziesconti.gestionesupermercato.service.DettListinoService;
+import com.sdistribuiti.prezziesconti.gestionesupermercato.utility.exception.NotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.prezziesconti.gestionesupermercato.entity;
+package com.sdistribuiti.prezziesconti.gestionesupermercato.entity;
 
 import java.io.Serializable;
 

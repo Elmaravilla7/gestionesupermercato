@@ -1,4 +1,4 @@
-package com.prezziesconti.gestionesupermercato.utility.exception;
+package com.sdistribuiti.prezziesconti.gestionesupermercato.utility.exception;
 
 public class NotFoundException  extends Exception
 {

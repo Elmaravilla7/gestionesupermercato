@@ -1,4 +1,4 @@
-package com.prezziesconti.gestionesupermercato;
+package com.sdistribuiti.prezziesconti.gestionesupermercato;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

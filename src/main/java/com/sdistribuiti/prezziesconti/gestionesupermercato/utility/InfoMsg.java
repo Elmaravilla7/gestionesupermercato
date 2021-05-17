@@ -1,4 +1,4 @@
-package com.prezziesconti.gestionesupermercato.utility;
+package com.sdistribuiti.prezziesconti.gestionesupermercato.utility;
 
 import java.io.Serializable;
 

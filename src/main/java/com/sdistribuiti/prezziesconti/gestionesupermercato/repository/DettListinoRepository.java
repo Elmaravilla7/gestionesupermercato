@@ -1,6 +1,6 @@
-package com.prezziesconti.gestionesupermercato.repository;
+package com.sdistribuiti.prezziesconti.gestionesupermercato.repository;
 
-import com.prezziesconti.gestionesupermercato.entity.DettListino;
+import com.sdistribuiti.prezziesconti.gestionesupermercato.entity.DettListino;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 public interface DettListinoRepository extends PagingAndSortingRepository<DettListino, String> {

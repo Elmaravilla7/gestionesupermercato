@@ -1,4 +1,4 @@
-package com.prezziesconti.gestionesupermercato.login;
+package com.sdistribuiti.prezziesconti.gestionesupermercato.login;
 
 import java.io.IOException;
 import java.io.PrintWriter;

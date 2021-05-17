@@ -1,7 +1,7 @@
-package com.prezziesconti.gestionesupermercato;
+package com.sdistribuiti.prezziesconti.gestionesupermercato;
 
-import com.prezziesconti.gestionesupermercato.entity.DettListino;
-import com.prezziesconti.gestionesupermercato.repository.DettListinoRepository;
+import com.sdistribuiti.prezziesconti.gestionesupermercato.entity.DettListino;
+import com.sdistribuiti.prezziesconti.gestionesupermercato.repository.DettListinoRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
