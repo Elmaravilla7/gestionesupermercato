@@ -19,9 +19,9 @@ class GestioneSupermercatoTests {
 
     @Test
     public void TestFindByCodArt() throws Exception {
-        Assertions.assertThat(dettListRepo.findByCodArt("901238003"))
+        Assertions.assertThat(dettListRepo.findByCodArt("7999182"))
                 .extracting(DettListino::getPrezzoFinale)
-                .isEqualTo(10.40);
+                .isEqualTo(1.41);
     }
 
 }
