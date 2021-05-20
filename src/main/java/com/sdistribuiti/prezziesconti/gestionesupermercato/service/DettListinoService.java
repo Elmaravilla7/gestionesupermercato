@@ -9,7 +9,7 @@ public interface DettListinoService {
 
     public Iterable<DettListino> catchAll();
 
-    public void inserisci(DettListino dettListino);
+    public void inserisci(DettListino dettListino) throws NotFoundException, Exception;
 
     public void elimina(String codArt) throws NotFoundException;
 

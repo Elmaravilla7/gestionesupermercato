@@ -27,7 +27,6 @@ import lombok.EqualsAndHashCode;
 public class DettListino implements Serializable {
 
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
     @Size(min = 5, max = 20, message = "{Size.DettListini.codArt.Validation}")
     @NotNull(message = "{NotNull.DettListini.codArt.Validation}")
     @Column(name = "CODART")

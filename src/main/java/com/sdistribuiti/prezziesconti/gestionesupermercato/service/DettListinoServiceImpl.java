@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+
 @Service
 @Transactional(readOnly = true)
 public class DettListinoServiceImpl implements  DettListinoService{
@@ -27,10 +28,10 @@ public class DettListinoServiceImpl implements  DettListinoService{
 
     @Override
     @Transactional
-    public void inserisci(DettListino dettListino)
+    public void inserisci(DettListino dettListino)throws IllegalArgumentException
     {
-
         dettListRepo.save(dettListino);
+
     }
 
     @Override
@@ -44,6 +45,8 @@ public class DettListinoServiceImpl implements  DettListinoService{
         }
 
         dettListRepo.delete(art);
+
+
     }
 
     @Override
