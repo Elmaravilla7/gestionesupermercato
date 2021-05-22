@@ -21,7 +21,7 @@ import javax.validation.Valid;
 
 @RestController
 @RequestMapping("api/gestione")
-@CrossOrigin(origins="http://localhost:5071")
+@CrossOrigin(origins="http://localhost:4200")
 public class DettListinoController {
 
     @Autowired
@@ -37,6 +37,13 @@ public class DettListinoController {
             throws NotFoundException
     {
         return new ResponseEntity<DettListinoDTO>(serv.catchFromCodArtDTO(codArt), HttpStatus.OK);
+    }
+
+    @GetMapping(value = "/ricerca/fromcodice/prezzo/{codart}", produces = "application/json")
+    public Double prezzoFinaleByCod(@PathVariable("codart") String codArt)
+            throws NotFoundException
+    {
+        return serv.catchFromCodArtDTO(codArt).getPrezzoFinale();
     }
 
 
