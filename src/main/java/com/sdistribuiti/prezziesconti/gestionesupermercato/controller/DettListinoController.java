@@ -60,11 +60,11 @@ public class DettListinoController {
         try {
             serv.inserisci(articolo);
         }catch(Exception e){
-            return new ResponseEntity<>(String.format("Non è stato trovato alcun articolo con questo codice presente nella tabella Articoli"), new HttpHeaders(), HttpStatus.BAD_REQUEST);
+            return new ResponseEntity<>(new HttpHeaders(), HttpStatus.BAD_REQUEST);
 
         }
 
-        return new ResponseEntity<>(String.format("Inserimento ok!"), new HttpHeaders(), HttpStatus.CREATED);
+        return new ResponseEntity<>(new HttpHeaders(), HttpStatus.CREATED);
     }
 
 
@@ -74,7 +74,7 @@ public class DettListinoController {
     {
         serv.elimina(codArt);
 
-        return new ResponseEntity<>(String.format("Eliminazione ok!"), new HttpHeaders(), HttpStatus.OK);
+        return new ResponseEntity<>( new HttpHeaders(), HttpStatus.OK);
 
     }
 }
